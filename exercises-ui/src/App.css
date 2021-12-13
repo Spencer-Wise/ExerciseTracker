@@ -1,0 +1,119 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: white;
+  color: lightseagreen;
+  margin: 0;
+  padding: 5em
+}
+
+h1 {
+  color: teal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3em
+}
+
+h2 {
+  color:teal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+table {
+  width:100%;
+}
+
+caption {
+  color: white;
+  background-color: lightseagreen;
+  border: solid;
+  border-color: black;
+  border-width: 1pt;
+  font-size: 2rem;
+}
+
+tr {
+  color: lightseagreen;
+  border: solid;
+  border-color: black;
+}
+
+th {
+  color:lightseagreen;
+  border: solid;
+  border-color: black;
+  border-width: 2pt;
+  background-color: whitesmoke;
+  font-size: 1.5em;
+}
+
+td {
+  color: black;
+  border: solid;
+  border-color: black;
+  border-width: 1pt;
+  font-size: 1.25em;
+}
+
+fieldset {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black
+}
+
+legend {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: lightseagreen
+}
+
+label {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black
+}
+
+input {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black
+}
+
+button {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  font-size: 1.25em;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
